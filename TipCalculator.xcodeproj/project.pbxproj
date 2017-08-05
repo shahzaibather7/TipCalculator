@@ -13,6 +13,7 @@
 		112C74841F34F40100A57E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C74821F34F40100A57E70 /* Main.storyboard */; };
 		112C74861F34F40100A57E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112C74851F34F40100A57E70 /* Assets.xcassets */; };
 		112C74891F34F40100A57E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C74871F34F40100A57E70 /* LaunchScreen.storyboard */; };
+		112C74921F34F77300A57E70 /* TextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 112C74911F34F77300A57E70 /* TextFieldView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		112C74851F34F40100A57E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112C74881F34F40100A57E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		112C748A1F34F40100A57E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112C74901F34F77300A57E70 /* TextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldView.h; sourceTree = "<group>"; };
+		112C74911F34F77300A57E70 /* TextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				112C747D1F34F40100A57E70 /* AppDelegate.m */,
 				112C747F1F34F40100A57E70 /* ViewController.h */,
 				112C74801F34F40100A57E70 /* ViewController.m */,
+				112C74901F34F77300A57E70 /* TextFieldView.h */,
+				112C74911F34F77300A57E70 /* TextFieldView.m */,
 				112C74821F34F40100A57E70 /* Main.storyboard */,
 				112C74851F34F40100A57E70 /* Assets.xcassets */,
 				112C74871F34F40100A57E70 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				112C74811F34F40100A57E70 /* ViewController.m in Sources */,
 				112C747E1F34F40100A57E70 /* AppDelegate.m in Sources */,
+				112C74921F34F77300A57E70 /* TextFieldView.m in Sources */,
 				112C747B1F34F40100A57E70 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
